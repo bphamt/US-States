@@ -15,11 +15,13 @@ class States(Turtle):
         STATES.append(self)
 
     def write_state(self):
+        """Write states text to screen"""
         self.goto(self.x_pos, self.y_pos)
         self.write(arg=f"{self.state_name}", font=("Arial", 8, "bold"))
         STATES.remove(self)
 
     def guess(self, answer):
+        """Main guessing loop. Grabs states object in STATES list"""
         for i in STATES:
             name = i.state_name
             if name == answer:
@@ -27,6 +29,7 @@ class States(Turtle):
                 return True
 
     def exit(self):
+        """Return a string of states remaining in game"""
         States_string = []
 
         for i in STATES:
