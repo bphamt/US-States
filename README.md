@@ -14,7 +14,6 @@ Raw file provided, as well as a zip of such files. Run in a Python IDE to compil
 - To quit the game, click "cancel" on the popup or type "quit"
 - If the game is quit via the command "quit", it will export out a list of states that were remaining in the game
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Built with
 
-Please make sure to update tests as appropriate.
+Built with Pandas, Turtle Graphics, and Python 3.9
