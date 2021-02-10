@@ -16,4 +16,4 @@ Raw file provided, as well as a zip of such files. Run in a Python IDE to compil
 
 ## Built with
 
-Built with Pandas, Turtle Graphics, and Python 3.9
+Pandas, Turtle Graphics, and Python 3.9
