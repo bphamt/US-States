@@ -30,10 +30,7 @@ class States(Turtle):
 
     def exit(self):
         """Return a string of states remaining in game"""
-        States_string = []
-
-        for i in STATES:
-            States_string.append(i.state_name)
+        States_string = [i.state_name for i in STATES]
 
         listToStr = '\n'.join([str(elem) for elem in States_string])
 
